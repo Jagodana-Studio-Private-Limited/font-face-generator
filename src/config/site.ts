@@ -1,174 +1,178 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Font Face Generator",
+  title: "Font Face Generator — @font-face CSS Code Builder",
+  description:
+    "Generate @font-face CSS declarations for custom web fonts instantly. Set font family, weights, styles, font-display, and file URLs — copy production-ready code in seconds.",
+  url: "https://font-face-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Type",
+  brandAccentColor: "#a855f7",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "font face generator",
+    "@font-face generator",
+    "custom web font css",
+    "font face css code",
+    "web font generator",
+    "font-display swap",
+    "woff2 font face",
+    "embed custom font css",
+    "font-face declaration builder",
+    "css font embedding tool",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#7c3aed",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/font-face-generator",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "Font Face Generator helps developers embed custom web fonts with clean, optimised @font-face CSS. No uploads, no signup — 100% client-side.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Multi-weight font support",
+      "Auto format detection",
+      "font-display control",
+      "One-click copy",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free Developer Tool",
+    titleLine1: "Generate",
+    titleGradient: "@font-face CSS Instantly",
+    subtitle:
+      "Build production-ready @font-face declarations for any custom web font. Set family name, weights, styles, file URLs, and font-display — get clean CSS in seconds.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🔤",
+      title: "Multi-Weight Support",
+      description:
+        "Add as many font weight and style variants as you need — thin, regular, bold, italic — all in one click.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "⚡",
+      title: "Auto Format Detection",
+      description:
+        "Paste any font URL (.woff2, .woff, .ttf, .otf) and the correct format() hint is added automatically.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "📋",
+      title: "Copy-Ready Output",
+      description:
+        "Get clean, properly indented @font-face CSS that you can paste directly into your stylesheet.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
+      name: "CSS Variables Generator",
+      url: "https://css-variables-generator.tools.jagodana.com",
       icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      description: "Generate CSS custom property declarations.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "CSS Unit Converter",
+      url: "https://css-unit-converter.tools.jagodana.com",
+      icon: "📐",
+      description: "Convert px, rem, em, vw and other CSS units instantly.",
     },
     {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
+      name: "Google Fonts",
+      url: "https://fluid-type-scale.tools.jagodana.com",
+      icon: "🔡",
+      description: "Generate fluid type scales for responsive typography.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
-    },
-    {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
+      name: "Color Palette Generator",
+      url: "https://color-palette-generator.tools.jagodana.com",
       icon: "🎭",
-      description: "Extract color palettes from any image.",
+      description: "Generate beautiful colour palettes in one click.",
     },
     {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "CSS Gradient Generator",
+      url: "https://css-gradient-generator.tools.jagodana.com",
+      icon: "🌈",
+      description: "Build CSS linear, radial, and conic gradients visually.",
+    },
+    {
+      name: "Favicon Generator",
+      url: "https://favicon-generator.tools.jagodana.com",
+      icon: "🖼️",
+      description: "Generate all favicon sizes from any image.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Enter Font Family Name",
+      text: "Type your font family name — this will be used in the font-family property in your CSS.",
+      url: "",
+    },
+    {
+      name: "Add Font Variants",
+      text: "Click 'Add Variant' to add each weight and style (e.g. 400 normal, 700 bold, 400 italic). Paste the font file URL for each variant.",
+      url: "",
+    },
+    {
+      name: "Copy the CSS",
+      text: "Click 'Copy CSS' to copy the generated @font-face declarations. Paste them at the top of your stylesheet before any rules that use the font.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What is @font-face in CSS?",
+      answer:
+        "@font-face is a CSS rule that lets you load a custom font from a file URL rather than relying on system fonts. You specify the font-family name, the file src (one or more URLs), and optionally the font-weight, font-style, and font-display. Once defined, you use the family name anywhere in your CSS like any other font.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Which font format should I use — woff2 or woff?",
+      answer:
+        "Use woff2 as your primary format. It has the best compression and is supported by all modern browsers. Woff is a good fallback for older browsers (IE 11). TTF and OTF are rarely needed on the web today. If you're self-hosting, serve woff2 first, woff second.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "What does font-display: swap do?",
+      answer:
+        "font-display: swap tells the browser to show a fallback system font immediately while the custom font loads, then swap it in once downloaded. This prevents invisible text during page load (FOIT) and is recommended for most body text. Use 'optional' for decorative fonts where a fallback is acceptable permanently.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "Can I add multiple font weights in one @font-face block?",
+      answer:
+        "No — each @font-face block defines exactly one weight and style combination. For a full type system you need separate blocks for each variant (400 normal, 700 normal, 400 italic, etc.). This generator handles that automatically — just click 'Add Variant' for each combination you need.",
+    },
+    {
+      question: "Do I need to upload my font file to use this tool?",
+      answer:
+        "No. This is a 100% client-side tool — nothing is uploaded to any server. You provide the URL where your font file is hosted (your CDN, GitHub, Google Fonts CDN, etc.), and the generator builds the @font-face CSS for you.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "Font Face Generator — @font-face CSS Code Builder",
+      description:
+        "Generate @font-face CSS declarations for custom web fonts instantly. Set font family, weights, styles, font-display, and file URLs — copy production-ready code in seconds.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
